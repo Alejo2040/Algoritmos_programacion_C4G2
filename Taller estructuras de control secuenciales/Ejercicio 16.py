@@ -4,9 +4,9 @@ Galones-->int-->G
 Salida
 Precio-->int-->P
 """
-#ENTRTADA
+#Entrada
 G=int(input("De el numero de galones que quiere surtir: "))
-#CAJA NEGRA
+#Caja negra
 P=int((G*3.785)*50000)
-#SALIDA
+#Salida
 print("El precio de lo que surtio es",P,"COP")

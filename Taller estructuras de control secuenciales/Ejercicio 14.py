@@ -10,7 +10,7 @@ Monto total a pagar-->int-->Mt
 L_a=int(input("De la lectura de la luz del anterior mes: "))
 L_A=int(input("De la lectura de la luz mes actual: "))
 C_kv=int(input("Digite el costo por kilovatio: "))
-
+#Caja negra
 Mt=int((L_A-L_a)*C_kv)
-
+#Salidas
 print("EL monto total a pagar en un mes de luz es:",Mt)
